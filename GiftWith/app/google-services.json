@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900376047246",
+    "project_id": "elevated-creek-261315",
+    "storage_bucket": "elevated-creek-261315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900376047246:android:7fd74805c976085396e3df",
+        "android_client_info": {
+          "package_name": "com.example.giftwith"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900376047246-uf3mfb2jv9feqo25ldfk1obmf45r5123.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6fFSWUUbY8_5KTR6fuQuJIPbleR_NwaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900376047246-uf3mfb2jv9feqo25ldfk1obmf45r5123.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

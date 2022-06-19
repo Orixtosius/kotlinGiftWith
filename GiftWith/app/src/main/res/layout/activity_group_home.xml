@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupHomeActivity"
+    android:background="#97FFD233">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="279dp"
+        android:background="#B1B1AB"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/groupLink"
+            android:layout_width="311dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="Group Link"
+            android:inputType="textPersonName"
+            android:shadowColor="#171212"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/createGroupButton"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:onClick="joinGroup"
+            android:text="JOIN"
+            android:textSize="20dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
